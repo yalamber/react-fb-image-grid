@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Image, Modal, Grid, Row, Col } from 'react-bootstrap';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
