@@ -7,49 +7,49 @@
   padding: 10px;
 }
 
-.container {
+.grid-container .container {
   padding-left: 0;
   padding-right: 0;
   width: 100% !important;
 }
 
-.container *{
+.grid-container .container * {
   margin: 0;
   padding: 0;
   cursor: pointer;
 }
 
-.col-md-4 {
+.grid-container .col-md-4 {
   width: 33.33333333%;
 }
 
-.border {
+.grid-container .border {
   border: 2px solid white;
   border-radius: 6px;
 }
 
-.background {
+.grid-container .background {
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
-.height-one {
+.grid-container .height-one {
   width: 100%;
   padding-top: 100%;
 }
 
-.height-two {
+.grid-container .height-two {
   width: 50%;
   padding-top: 50%;
 }
 
-.height-three {
+.grid-container .height-three {
   width: 33.3333%;
   padding-top: 33.3333%;
 }
 
-.cover {
+.grid-container .cover {
   background-color: #222;
   opacity: 0.5;
   position: absolute;
@@ -60,7 +60,7 @@
   border-radius: 6px;
 }
 
-.cover-text {
+.grid-container .cover-text {
   right: 0;
   left: 0;
   bottom: 0;
@@ -74,7 +74,7 @@
   text-align: center;
 }
 
-.cover-text > p {
+.grid-container .cover-text > p {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -82,18 +82,18 @@
   transform: translate(-50%, -50%);
 }
 
-.slide {
+.grid-container .slide {
   height: 0;
   bottom: 100%;
   overflow: hidden;
   font-size: 3%;
 }
 
-.border:hover .slide  {
+.grid-container .border:hover .slide {
   bottom: 0;
   height: auto;
 }
 
-.border:hover .animate-text  {
-  top: 62%
+.grid-container .border:hover .animate-text {
+  top: 62%;
 }
